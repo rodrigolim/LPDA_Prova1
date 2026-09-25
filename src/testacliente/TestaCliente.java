@@ -18,14 +18,20 @@ public class TestaCliente {
         cidade.setEstado(estado); 
         
         
+        
+        
         Cliente cliente = new Cliente();  
         cliente.setCodigo(1);
         cliente.setNome("Bruno");
         cliente.setEndereco("Afonso Pena, 123");     
-        cliente.setCidade(cidade);
+        cliente.setCidade(cidade);        
         
-        
-        System.out.println(cliente.toString());
+     //   System.out.println(cliente.toString());
+     
+        System.out.println("Cliente:"+cliente.getNome()+
+                           "Endereço:"+cliente.getEndereco()+
+                           "Cidade:"+cliente.getCidade().getNome()+
+                           "Estado:"+cliente.getCidade().getEstado().getNome());
         
     }
     

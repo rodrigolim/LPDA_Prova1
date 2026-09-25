@@ -16,8 +16,7 @@ public class TestaCliente {
         Cidade cidade = new Cidade();
         cidade.setNome("Campo Belo");
         cidade.setEstado(estado); 
-        
-        
+            
         
         
         Cliente cliente = new Cliente();  
